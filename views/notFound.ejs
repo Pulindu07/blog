@@ -1,0 +1,12 @@
+<%- include("partials/header.ejs"); -%>
+
+    <div class="not-found">
+        <h1 class="not-found-heading">Oops!</h1>
+        <h6>404 - PAGE NOT FOUND</h6>
+        <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
+        <form action="/notFound" method="POST">
+            <button class="btn btn-primary" type="submit">GO TO HOMEPAGE</button>
+        </form>
+    </div>
+
+<%- include("partials/footer.ejs"); -%>
