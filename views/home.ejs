@@ -1,6 +1,6 @@
 <%- include("partials/header.ejs"); -%>
     <h1>Home</h1>
-    <p><%= StartingContent%></p>
+    <p><%= StartingContent%> <a href="/compose">https://blogbypulindu.herokuapp.com/compose</a></p>
 
     <% posts.forEach(function(post){ %>
         <h1><%= post.title %></h1>

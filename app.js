@@ -19,7 +19,7 @@ const postsSchema = {
 
 const Post = new mongoose.model("Post", postsSchema);
 
-const homeStartingContent = "You can add post by going to the url: https://blogbypulindu.herokuapp.com/compose";
+const homeStartingContent = "You can add post by going to the url: ";
 const aboutContent = "Hi I am Pulindu de Silva";
 const contactContent = "Drop me an email: pulindujanith@gmail.com";
 
